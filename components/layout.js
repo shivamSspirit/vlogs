@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 
 const name = 'shivam soni'
-export const siteTitle = 'next.js example'
+export const siteTitle = 'Web-3 Vlogs'
 
 export default function Layout({children ,home}){
     return (
@@ -15,7 +15,7 @@ export default function Layout({children ,home}){
                 <link rel="icon" href="/favicon.ico"/>
                     <meta
                     name="description"
-                    content="learn how to build perosnal website using next.js"
+                    content="learn about crypto and web3"
                     />
                <meta
                property="og:image"
@@ -32,7 +32,7 @@ export default function Layout({children ,home}){
           <>
             <Image
               priority
-              src="/images/pexels.jpeg"
+              src="/images/dream.jpeg"
               className={utilStyles.borderCircle}
               height={144}
               width={144}
@@ -46,7 +46,7 @@ export default function Layout({children ,home}){
               <a>
                 <Image
                   priority
-                  src="/images/pexels.jpeg"
+                  src="/images/dream.jpeg"
                   className={utilStyles.borderCircle}
                   height={108}
                   width={108}

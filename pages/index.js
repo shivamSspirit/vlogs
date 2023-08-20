@@ -24,13 +24,12 @@ export default function Home({ allPostsData }) {
        <title>{siteTitle}</title>
      </Head>
      <section className={utilStyles.headingMd}>
-     <p>[i am shivam soni , i am a web developer in javascript technology]</p>
-
+     <p style={{textAlign:"center",fontWeight:"bold"}}>The web3 content creator(Solami)</p>
      </section>
 
 
-     <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-       <h2 className={utilStyles.headingLg}>Blog</h2>
+     <section style={{display:"flex",flexDirection:"column", padding:"1rem"}} className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+       <h2 className={utilStyles.headingLg}>Series & Articles</h2>
        <ul className={utilStyles.list}>
          {allPostsData.map(({id,date,title})=>(
            <li className={utilStyles.listItem} key={id}>
