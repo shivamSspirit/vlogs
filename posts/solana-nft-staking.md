@@ -9,4 +9,4 @@ date: '2023-05-22'
 
 ### In this tutorial, we will learn how to create a simple Nft stake program on the Solana blockchain. while building this program we will learn how to write the Solana program using the Rust and Anchor framework, we also talk about what is nft staking and how it is work.
 
-1. [solana NFT Staking](https://shivamsspirit.hashnode.dev/nft-staking-tutorial)
+1. [Solana NFT Staking](https://shivamsspirit.hashnode.dev/nft-staking-tutorial)

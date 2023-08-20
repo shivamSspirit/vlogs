@@ -8,14 +8,14 @@ import Link from 'next/link'
 const name = 'shivam soni'
 export const siteTitle = 'Web-3 Vlogs'
 
-export default function Layout({children ,home}){
+export default function Layout({children ,home, postData}){
     return (
         <div className={styles.container}>
             <Head>
                 <link rel="icon" href="/favicon.ico"/>
                     <meta
                     name="description"
-                    content="learn about crypto and web3"
+                    content="Learn about crypto and web3"
                     />
                <meta
                property="og:image"
@@ -46,7 +46,7 @@ export default function Layout({children ,home}){
               <a>
                 <Image
                   priority
-                  src="/images/dream.jpeg"
+                  src=  {postData.id==="solang-series"?"/images/sol.jpeg":"/images/dream.jpeg"}
                   className={utilStyles.borderCircle}
                   height={108}
                   width={108}
