@@ -21,7 +21,7 @@ export default function Layout({children ,home, postData}){
                property="og:image"
                content={`https://og-image.vercel.app/${encodeURI(
                 siteTitle
-              )}.https://imgur.com/ptBonMb`}
+              )}.https://i.imgur.com/cafOqYY.jpg`}
             />
              <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
